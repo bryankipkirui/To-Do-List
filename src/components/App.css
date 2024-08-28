@@ -1,0 +1,39 @@
+body{
+    background-color:beige ;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 400px;
+    height: 500px;
+    margin: 200px auto;
+    box-shadow: 4px 4px 10px #111;
+    border-radius: 10px;
+}
+
+.container .h1{
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.container .form{
+    padding-left: 20px;
+}
+
+.form input{
+   padding: 5px; 
+    margin: 15px;
+    outline: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
+    border-bottom-style:dashed;
+}
+
+.form button{
+    padding: 5px;
+    width: 20%;
+}
